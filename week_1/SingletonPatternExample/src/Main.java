@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // Get Logger instance (singleton)
+        
         Logger log1 = Logger.get_logger_started();
         log1.logInfo("This is the first info message");
 
-        // Get Logger instance again
+        
         Logger log2 = Logger.get_logger_started();
         log2.logInfo("This is second message");
 
-        // Check if both instances are the same
+        
         if (log1 == log2) {
             System.out.println("Same Logger instance used across the application");
         } else {
@@ -25,7 +25,6 @@ public class Main {
         }
         
 
-        // Attempt to create a new instance directly (won't compile)
-        // Logger newLogger = new Logger(); // ❌ This will give a compilation error
+        
     }
 }
