@@ -1,0 +1,19 @@
+.box {
+    width: 300px;                  /* ✅ Use lowercase 'width' */
+    display: inline-block;         /* ✅ Use lowercase 'display' and hyphen in 'inline-block' */
+    margin: 10px;                  /* ✅ Correct margin all around */
+    padding: 10px 20px;            /* ✅ 10px top/bottom, 20px left/right */
+    border: 1px solid black;       /* ✅ 1px black border */
+    border-radius: 10px;           /* ✅ Rounded corners */
+}
+
+dt {
+    font-weight: 500;
+}
+.greenText {
+  color: green;
+}
+
+.blueText {
+  color: blue;
+}
